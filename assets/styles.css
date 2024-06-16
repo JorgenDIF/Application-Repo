@@ -1,9 +1,8 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.8; /* Increased line height for better readability */
 }
 
 header {
@@ -14,14 +13,24 @@ header {
 }
 
 main {
-    padding: 1em;
+    padding: 20px;
 }
 
 section {
-    margin-bottom: 2em;
+    margin: 2em auto; /* Adjusted margin for better spacing */
+    max-width: 800px; /* Max width to control section width */
+    text-align: left;
 }
 
-h2 {
+section img {
+    display: block;
+    margin: 20px auto; /* Added margin top and bottom for spacing */
+    max-width: 100%;
+    height: auto; /* Ensure images are responsive */
+}
+
+h1, h2 {
+    text-align: center; /* Centered headings */
     color: #333;
 }
 
@@ -35,6 +44,10 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners to images */
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px; /* Added margin top for spacing */
 }
