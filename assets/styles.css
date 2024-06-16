@@ -29,11 +29,6 @@ section img {
     height: auto; /* Ensure images are responsive */
 }
 
-h1, h2 {
-    text-align: center; /* Centered headings */
-    color: #333;
-}
-
 a {
     color: #0066cc;
     text-decoration: none;
